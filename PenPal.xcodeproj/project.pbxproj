@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19A9DA10B110C4371944640C /* Pods_PenPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 731BF4AA92B9B0C67CCF0531 /* Pods_PenPal.framework */; };
 		5439A55B20C34BDA00585E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5439A55A20C34BDA00585E10 /* AppDelegate.swift */; };
-		5439A55D20C34BDA00585E10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5439A55C20C34BDA00585E10 /* ViewController.swift */; };
-		5439A56020C34BDA00585E10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5439A55E20C34BDA00585E10 /* Main.storyboard */; };
+		5439A55D20C34BDA00585E10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5439A55C20C34BDA00585E10 /* HomeViewController.swift */; };
 		5439A56320C34BDA00585E10 /* PenPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5439A56120C34BDA00585E10 /* PenPal.xcdatamodeld */; };
-		5439A56520C34BDB00585E10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5439A56420C34BDB00585E10 /* Assets.xcassets */; };
 		5439A56820C34BDB00585E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5439A56620C34BDB00585E10 /* LaunchScreen.storyboard */; };
+		5479467920D4E19E003E6A27 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5479467820D4E19E003E6A27 /* Storyboard.storyboard */; };
+		5479467B20D5043F003E6A27 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5479467A20D5043F003E6A27 /* RootViewController.swift */; };
+		5479467D20D7F704003E6A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5479467C20D7F704003E6A27 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5439A55720C34BDA00585E10 /* PenPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PenPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5439A55A20C34BDA00585E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5439A55C20C34BDA00585E10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5439A55F20C34BDA00585E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5439A55C20C34BDA00585E10 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5439A56220C34BDA00585E10 /* PenPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PenPal.xcdatamodel; sourceTree = "<group>"; };
-		5439A56420C34BDB00585E10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5439A56720C34BDB00585E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5439A56920C34BDB00585E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5479467820D4E19E003E6A27 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		5479467A20D5043F003E6A27 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		5479467C20D7F704003E6A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		731BF4AA92B9B0C67CCF0531 /* Pods_PenPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PenPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		847BB6C8B4ADB43085EFEA1F /* Pods-PenPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenPal.release.xcconfig"; path = "Pods/Target Support Files/Pods-PenPal/Pods-PenPal.release.xcconfig"; sourceTree = "<group>"; };
+		CF0672858F23DC90D73DD648 /* Pods-PenPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PenPal/Pods-PenPal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19A9DA10B110C4371944640C /* Pods_PenPal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				5439A55920C34BDA00585E10 /* PenPal */,
 				5439A55820C34BDA00585E10 /* Products */,
+				C675BD45781E91557C3BCBC3 /* Pods */,
+				DAA06F8BAEF1B22881F60FD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				5439A55A20C34BDA00585E10 /* AppDelegate.swift */,
-				5439A55C20C34BDA00585E10 /* ViewController.swift */,
-				5439A55E20C34BDA00585E10 /* Main.storyboard */,
-				5439A56420C34BDB00585E10 /* Assets.xcassets */,
+				5479467820D4E19E003E6A27 /* Storyboard.storyboard */,
+				5439A55C20C34BDA00585E10 /* HomeViewController.swift */,
+				5479467A20D5043F003E6A27 /* RootViewController.swift */,
 				5439A56620C34BDB00585E10 /* LaunchScreen.storyboard */,
 				5439A56920C34BDB00585E10 /* Info.plist */,
 				5439A56120C34BDA00585E10 /* PenPal.xcdatamodeld */,
+				5479467C20D7F704003E6A27 /* Assets.xcassets */,
 			);
 			path = PenPal;
+			sourceTree = "<group>";
+		};
+		C675BD45781E91557C3BCBC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF0672858F23DC90D73DD648 /* Pods-PenPal.debug.xcconfig */,
+				847BB6C8B4ADB43085EFEA1F /* Pods-PenPal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAA06F8BAEF1B22881F60FD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				731BF4AA92B9B0C67CCF0531 /* Pods_PenPal.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5439A56C20C34BDB00585E10 /* Build configuration list for PBXNativeTarget "PenPal" */;
 			buildPhases = (
+				975EBF318AFA10F5AE85D03D /* [CP] Check Pods Manifest.lock */,
 				5439A55320C34BDA00585E10 /* Sources */,
 				5439A55420C34BDA00585E10 /* Frameworks */,
 				5439A55520C34BDA00585E10 /* Resources */,
+				650AF74B1E07BED2B134A9F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +155,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				5439A56820C34BDB00585E10 /* LaunchScreen.storyboard in Resources */,
-				5439A56520C34BDB00585E10 /* Assets.xcassets in Resources */,
-				5439A56020C34BDA00585E10 /* Main.storyboard in Resources */,
+				5479467D20D7F704003E6A27 /* Assets.xcassets in Resources */,
+				5479467920D4E19E003E6A27 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		650AF74B1E07BED2B134A9F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PenPal/Pods-PenPal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cartography/Cartography.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cartography.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PenPal/Pods-PenPal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		975EBF318AFA10F5AE85D03D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PenPal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5439A55320C34BDA00585E10 /* Sources */ = {
@@ -139,7 +209,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5439A56320C34BDA00585E10 /* PenPal.xcdatamodeld in Sources */,
-				5439A55D20C34BDA00585E10 /* ViewController.swift in Sources */,
+				5439A55D20C34BDA00585E10 /* HomeViewController.swift in Sources */,
+				5479467B20D5043F003E6A27 /* RootViewController.swift in Sources */,
 				5439A55B20C34BDA00585E10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +218,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5439A55E20C34BDA00585E10 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5439A55F20C34BDA00585E10 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5439A56620C34BDB00585E10 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +345,7 @@
 		};
 		5439A56D20C34BDB00585E10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF0672858F23DC90D73DD648 /* Pods-PenPal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,7 +355,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "hu-is-this.PenPal";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PenPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,6 +364,7 @@
 		};
 		5439A56E20C34BDB00585E10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847BB6C8B4ADB43085EFEA1F /* Pods-PenPal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +374,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "hu-is-this.PenPal";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PenPal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
