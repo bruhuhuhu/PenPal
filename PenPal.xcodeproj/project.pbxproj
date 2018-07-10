@@ -11,10 +11,11 @@
 		5439A55B20C34BDA00585E10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5439A55A20C34BDA00585E10 /* AppDelegate.swift */; };
 		5439A55D20C34BDA00585E10 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5439A55C20C34BDA00585E10 /* HomeViewController.swift */; };
 		5439A56320C34BDA00585E10 /* PenPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5439A56120C34BDA00585E10 /* PenPal.xcdatamodeld */; };
-		5439A56820C34BDB00585E10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5439A56620C34BDB00585E10 /* LaunchScreen.storyboard */; };
-		5479467920D4E19E003E6A27 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5479467820D4E19E003E6A27 /* Storyboard.storyboard */; };
 		5479467B20D5043F003E6A27 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5479467A20D5043F003E6A27 /* RootViewController.swift */; };
 		5479467D20D7F704003E6A27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5479467C20D7F704003E6A27 /* Assets.xcassets */; };
+		5479468220DA2BAD003E6A27 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5479468120DA2BAD003E6A27 /* TabBarController.swift */; };
+		5479468420DB9F8F003E6A27 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5479468320DB9F8F003E6A27 /* MyCollectionViewController.swift */; };
+		547D074220E36B1100A4D1CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547D074120E36B1100A4D1CD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,11 +23,12 @@
 		5439A55A20C34BDA00585E10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5439A55C20C34BDA00585E10 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5439A56220C34BDA00585E10 /* PenPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PenPal.xcdatamodel; sourceTree = "<group>"; };
-		5439A56720C34BDB00585E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5439A56920C34BDB00585E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5479467820D4E19E003E6A27 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		5479467A20D5043F003E6A27 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		5479467C20D7F704003E6A27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5479468120DA2BAD003E6A27 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		5479468320DB9F8F003E6A27 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		547D074120E36B1100A4D1CD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		731BF4AA92B9B0C67CCF0531 /* Pods_PenPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PenPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		847BB6C8B4ADB43085EFEA1F /* Pods-PenPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenPal.release.xcconfig"; path = "Pods/Target Support Files/Pods-PenPal/Pods-PenPal.release.xcconfig"; sourceTree = "<group>"; };
 		CF0672858F23DC90D73DD648 /* Pods-PenPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PenPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PenPal/Pods-PenPal.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,16 +67,41 @@
 		5439A55920C34BDA00585E10 /* PenPal */ = {
 			isa = PBXGroup;
 			children = (
-				5439A55A20C34BDA00585E10 /* AppDelegate.swift */,
-				5479467820D4E19E003E6A27 /* Storyboard.storyboard */,
-				5439A55C20C34BDA00585E10 /* HomeViewController.swift */,
-				5479467A20D5043F003E6A27 /* RootViewController.swift */,
-				5439A56620C34BDB00585E10 /* LaunchScreen.storyboard */,
+				547D074620E36C3D00A4D1CD /* Models */,
+				547D074420E36BF100A4D1CD /* Base */,
+				547D074320E36BCA00A4D1CD /* ViewControllers */,
+				547D074120E36B1100A4D1CD /* LaunchScreen.storyboard */,
 				5439A56920C34BDB00585E10 /* Info.plist */,
 				5439A56120C34BDA00585E10 /* PenPal.xcdatamodeld */,
 				5479467C20D7F704003E6A27 /* Assets.xcassets */,
 			);
 			path = PenPal;
+			sourceTree = "<group>";
+		};
+		547D074320E36BCA00A4D1CD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5439A55C20C34BDA00585E10 /* HomeViewController.swift */,
+				5479468320DB9F8F003E6A27 /* MyCollectionViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		547D074420E36BF100A4D1CD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5479467A20D5043F003E6A27 /* RootViewController.swift */,
+				5479468120DA2BAD003E6A27 /* TabBarController.swift */,
+				5439A55A20C34BDA00585E10 /* AppDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		547D074620E36C3D00A4D1CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		C675BD45781E91557C3BCBC3 /* Pods */ = {
@@ -154,9 +181,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5439A56820C34BDB00585E10 /* LaunchScreen.storyboard in Resources */,
+				547D074220E36B1100A4D1CD /* LaunchScreen.storyboard in Resources */,
 				5479467D20D7F704003E6A27 /* Assets.xcassets in Resources */,
-				5479467920D4E19E003E6A27 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,23 +236,14 @@
 			files = (
 				5439A56320C34BDA00585E10 /* PenPal.xcdatamodeld in Sources */,
 				5439A55D20C34BDA00585E10 /* HomeViewController.swift in Sources */,
+				5479468420DB9F8F003E6A27 /* MyCollectionViewController.swift in Sources */,
 				5479467B20D5043F003E6A27 /* RootViewController.swift in Sources */,
+				5479468220DA2BAD003E6A27 /* TabBarController.swift in Sources */,
 				5439A55B20C34BDA00585E10 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		5439A56620C34BDB00585E10 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5439A56720C34BDB00585E10 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5439A56A20C34BDB00585E10 /* Debug */ = {

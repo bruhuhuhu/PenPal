@@ -16,11 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        let navVC = UINavigationController()
-        let homeVC = HomeViewController()
-        navVC.viewControllers = [homeVC]
-        window!.rootViewController = navVC
-        window!.makeKeyAndVisible()
+        let tabBarController = TabBarController()
+        self.window?.rootViewController = tabBarController
+        window?.backgroundColor = UIColor.white
+        self.window?.makeKeyAndVisible()
+        
         return true
 
     }

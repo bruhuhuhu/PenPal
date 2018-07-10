@@ -9,14 +9,107 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "PenPal/RootViewController.swift"
-            timestampString = "551025259.113233"
+            filePath = "PenPal/HomeViewController.swift"
+            timestampString = "551775135.997937"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "styleToolBar()"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "styleNavBar()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PenPal/TabBarController.swift"
+            timestampString = "551647990.7722861"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "homeViewController"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PenPal.TabBarController.homeViewController.getter : PenPal.HomeViewController"
+                  moduleName = "PenPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hutsunhao/Library/Mobile%20Documents/com~apple~CloudDocs/iOS_Development/PenPal/PenPal/TabBarController.swift"
+                  timestampString = "551174171.808113"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "143">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; PenPal.HomeViewController in PenPal.TabBarController.homeViewController.getter : PenPal.HomeViewController"
+                  moduleName = "PenPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hutsunhao/Library/Mobile%20Documents/com~apple~CloudDocs/iOS_Development/PenPal/PenPal/TabBarController.swift"
+                  timestampString = "551174171.810807"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PenPal.TabBarController.homeViewController.setter : PenPal.HomeViewController"
+                  moduleName = "PenPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hutsunhao/Library/Mobile%20Documents/com~apple~CloudDocs/iOS_Development/PenPal/PenPal/TabBarController.swift"
+                  timestampString = "551174171.813476"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PenPal.TabBarController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; PenPal.TabBarController"
+                  moduleName = "PenPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hutsunhao/Library/Mobile%20Documents/com~apple~CloudDocs/iOS_Development/PenPal/PenPal/TabBarController.swift"
+                  timestampString = "551174171.817224"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "PenPal.TabBarController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;PenPal.TabBarController&gt;"
+                  moduleName = "PenPal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hutsunhao/Library/Mobile%20Documents/com~apple~CloudDocs/iOS_Development/PenPal/PenPal/TabBarController.swift"
+                  timestampString = "551174171.8207279"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

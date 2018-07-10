@@ -1,23 +1,22 @@
 //
-//  HomeViewController.swift
+//  MyCollectionViewController.swift
 //  PenPal
 //
-//  Created by hu tsun hao on 3/6/18.
+//  Created by hu tsun hao on 21/6/18.
 //  Copyright © 2018 hu tsun hao. All rights reserved.
 //
 
 import UIKit
 import Cartography
 
-class HomeViewController: RootViewController, UITableViewDataSource, UITableViewDelegate {
-
-    private let myArray: NSArray = ["Currently Filled 1","Currently Filled 2","Currently Filled 3"]
+class MyCollectionViewController: RootViewController, UITableViewDataSource, UITableViewDelegate {
 
     var myTableView = UITableView()
 
+    private let myArray: NSArray = ["Collection 1","Collection 2","Collection 3"]
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         setupView()
     }
 
@@ -44,8 +43,8 @@ class HomeViewController: RootViewController, UITableViewDataSource, UITableView
     }
 
     private func styleNavBar() {
-        let addButton = UIBarButtonItem.init(barButtonSystemItem: .add, target: nil, action: nil)
-        self.navigationItem.rightBarButtonItem = addButton
+        let editButton = UIBarButtonItem.init(barButtonSystemItem: .edit, target: nil, action: nil)
+        self.navigationItem.rightBarButtonItem = editButton
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
